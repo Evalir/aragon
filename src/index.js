@@ -19,7 +19,7 @@ const lastPackageVersion = getLastPackageVersion()
 
 const [currentMajorVersion, currentMinorVersion] = packageVersion.split('.')
 const [lastMajorVersion, lastMinorVersion] = lastPackageVersion.split('.')
-
+// klk con klk
 // Setting a package version also clears all local storage data.
 if (
   lastMajorVersion !== currentMajorVersion ||
